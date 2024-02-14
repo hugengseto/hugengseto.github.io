@@ -1204,6 +1204,10 @@ body {
   overflow-x: hidden;
 }
 
+.aos-init:not(.aos-animate):after {
+  position: fixed;
+}
+
 .navbar-fixed {
   position: fixed;
   z-index: 9999;
