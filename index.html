@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./dist/css/aos.css" />
     <link rel="shortcut icon" href="./dist/image/github.png" title="hugeng" />
     <script>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -26,7 +25,7 @@
     </script>
     <title>Portfolio Tailwindcss</title>
   </head>
-  <body>
+  <body style="overflow-x: hidden">
     <!-- Header Start -->
     <header
       class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent"
@@ -124,11 +123,7 @@
     <section id="home" class="pt-36 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div
-            class="aos-init w-full self-center px-4 lg:w-1/2"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
+          <div class="w-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary md:text-xl">
               <span id="sayHello"></span>
               <span
@@ -162,10 +157,7 @@
               <img
                 src="dist/image/hugeng.png"
                 alt="Hugeng Seto"
-                class="aos-init relative z-10 mx-auto max-w-full"
-                data-aos="fade-up-left"
-                data-aos-delay="1200"
-                data-aos-duration="1000"
+                class="relative z-10 mx-auto max-w-full"
               />
               <span
                 class="absolute -bottom-8 left-1/2 -translate-x-1/2 md:bottom-14 md:scale-125"
@@ -173,9 +165,6 @@
                 <svg
                   width="400"
                   height="400"
-                  class="aos-init"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
                   viewBox="0 0 200 200"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -196,11 +185,7 @@
     <section id="about" class="pb-32 pt-32 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div
-            class="aos-init mb-10 w-full px-4 lg:w-1/2"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
+          <div class="mb-10 w-full px-4 lg:w-1/2">
             <h4
               class="mb-3 text-lg font-bold uppercase text-primary lg:text-4xl"
             >
@@ -219,11 +204,7 @@
               JavaScript.
             </p>
           </div>
-          <div
-            class="aos-init w-full px-4 lg:w-1/2"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
+          <div class="w-full px-4 lg:w-1/2">
             <h3
               class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-14 lg:text-3xl"
             >
@@ -343,11 +324,7 @@
     <!-- Portfolio Section Start -->
     <section id="portfolio" class="bg-slate-100 pb-16 pt-36 dark:bg-slate-800">
       <div class="container">
-        <div
-          class="aos-init w-full px-4"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-        >
+        <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Portfolio</h4>
             <h2
@@ -364,11 +341,7 @@
           class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12"
         >
           <!-- project cek jumalah kata -->
-          <div
-            class="aos-init mb-12 p-4 md:w-1/2"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+          <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/image/portfolio/cekjumlahkata.JPG"
@@ -404,11 +377,7 @@
           </div>
 
           <!-- kalkulator bmi -->
-          <div
-            class="aos-init mb-12 p-4 md:w-1/2"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+          <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/image/portfolio/kalkulator_BMI.JPG"
@@ -444,11 +413,7 @@
           </div>
 
           <!-- Regex -->
-          <div
-            class="aos-init mb-12 p-4 md:w-1/2"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+          <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/image/portfolio/TBO_Implementasi_Regex.JPG"
@@ -484,11 +449,7 @@
           </div>
 
           <!-- cek provinsi -->
-          <div
-            class="aos-init mb-12 p-4 md:w-1/2"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+          <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/image/portfolio/luas provinsi.JPG"
@@ -524,11 +485,7 @@
           </div>
 
           <!-- kalkulator kabatuk -->
-          <div
-            class="aos-init mb-12 p-4 md:w-1/2"
-            data-aos="fade-up"
-            data-aos-duration="2000"
-          >
+          <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/image/portfolio/kalkulator.JPG"
@@ -570,11 +527,7 @@
     <!-- Client Section Start -->
     <section id="clients" class="bg-slate-700 pb-16 pt-36 dark:bg-slate-300">
       <div class="container">
-        <div
-          class="aos-init w-full px-4"
-          data-aos="flip-left"
-          data-aos-duration="2000"
-        >
+        <div class="w-full px-4">
           <div class="mx-auto mb-16 text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Clients</h4>
             <h2
@@ -588,11 +541,7 @@
             </p>
           </div>
         </div>
-        <div
-          class="aos-init w-full px-4"
-          data-aos="flip-down"
-          data-aos-duration="3000"
-        >
+        <div class="w-full px-4">
           <div class="flex flex-wrap items-center justify-center">
             <a
               href="#"
@@ -612,11 +561,7 @@
     <!-- Contact Section Start -->
     <div id="contact" class="pb-32 pt-36 dark:bg-slate-800">
       <div class="container">
-        <div
-          class="aos-init w-full px-4"
-          data-aos="zoom-out"
-          data-aos-duration="2000"
-        >
+        <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
             <h2
@@ -637,12 +582,7 @@
           action="https://script.google.com/macros/s/AKfycbzCwi8UHwvKCAgJVTmBQeEe4rZaAAaIddGKwqXUOkfcuiPVkkEneb1qJHqo9oVH8fDnug/exec"
         >
           <div class="w-full lg:mx-auto lg:w-2/3">
-            <div
-              class="aos-init mb-8 w-full px-4"
-              data-aos="fade-right"
-              data-aos-delay="1000"
-              data-aos-duration="1000"
-            >
+            <div class="mb-8 w-full px-4">
               <label for="name" class="text-base font-bold text-primary"
                 >Name</label
               >
@@ -653,12 +593,7 @@
                 class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
-            <div
-              class="aos-init mb-8 w-full px-4"
-              data-aos="fade-left"
-              data-aos-delay="1000"
-              data-aos-duration="1000"
-            >
+            <div class="mb-8 w-full px-4">
               <label for="email" class="text-base font-bold text-primary"
                 >Email</label
               >
@@ -669,12 +604,7 @@
                 class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
-            <div
-              class="aos-init mb-8 w-full px-4"
-              data-aos="fade-up"
-              data-aos-delay="1000"
-              data-aos-duration="1000"
-            >
+            <div class="mb-8 w-full px-4">
               <label for="message" class="text-base font-bold text-primary"
                 >Message</label
               >
@@ -685,12 +615,7 @@
                 class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               ></textarea>
             </div>
-            <div
-              class="px4 aos-init w-full"
-              data-aos="fade-up"
-              data-aos-delay="1000"
-              data-aos-duration="1000"
-            >
+            <div class="px4 w-full">
               <button
                 class="text-semibold w-full rounded-full bg-primary px-8 py-3 text-base text-white transition duration-500 hover:opacity-80 hover:shadow-lg"
               >
@@ -893,9 +818,5 @@
 
     <script src="dist/js/script.js"></script>
     <script src="dist/js/index.umd.js"></script>
-    <script src="./dist/js/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

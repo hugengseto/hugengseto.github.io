@@ -4,13 +4,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
 }
-
-.aos-init:not(.aos-animate):after {
-  position: fixed;
-}
-
 .navbar-fixed {
   @apply fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50;
 

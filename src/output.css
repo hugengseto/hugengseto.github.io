@@ -1201,11 +1201,6 @@ video {
 
 body {
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
-}
-
-.aos-init:not(.aos-animate):after {
-  position: fixed;
 }
 
 .navbar-fixed {
